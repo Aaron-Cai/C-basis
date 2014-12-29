@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 {
 	if(argc != 3)
 	{
-		printf("usage: %s plaintext outfile",argv[0]);
+		printf("usage: %s plaintext outfile\n",argv[0]);
 	}
 	else
 	{
@@ -27,6 +27,11 @@ int main(int argc, char* argv[])
 			if(x - 'a' >=0 && x - 'a'<26)
 			{
 				int x1 = (x - 'a' +  key - 'a' ) % 26 + 'a';
+				fputc(x1,ciphertext);
+			}
+			else if(x - 'A'>=0 && x - 'A'<26)
+			{
+				int x1 = (x - 'A' +  key - 'A' ) % 26 + 'A';
 				fputc(x1,ciphertext);
 			}
 			else
