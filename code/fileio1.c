@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		FILE *plaintext		= fopen(argv[1],"r");
+		FILE *plaintext	= fopen(argv[1],"r");
 		FILE *ciphertext	= fopen(argv[2],"w");
 		char str[100];
 		int x;
