@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	char str[100];
 	char str2[100];
 	int x;
-
+	fprintf(file4write,"Hello world!%d",1);
 	if(file4read != 0)
 	{
 		//while(fscanf(file4read,"%s %d%s",str,&x,str2)!=EOF)
