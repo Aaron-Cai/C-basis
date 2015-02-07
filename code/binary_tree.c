@@ -1,7 +1,8 @@
 /******************************************************************/
 /**Author: Jiayin Cai**********************************************/
 /**Date: Feb 7, 2015***********************************************/
-/**This program explains what is va_list and how to use it*********/
+/**This program explains what is binary tree***********************/
+/**and the basic manipulation of binary tree***********************/
 /******************************************************************/
 
 #include <stdio.h>
